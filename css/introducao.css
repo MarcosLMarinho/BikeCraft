@@ -25,6 +25,8 @@
     margin-bottom: 32px;
     font-size: 64px;
     line-height: 1.125;
+    font-family: 'Poppins';
+    font-weight: 600;
 }
 .introducao h1 span{
     color: var(--p1);
@@ -33,6 +35,8 @@
     margin-bottom: 32px;
     font-size: 24px;
     line-height: 36px;
+    font-family: 'Roboto';
+    font-weight: 400;
 }
 .introducao-conteudo a{
     padding: 16px 32px;
@@ -42,6 +46,8 @@
     font-size: 18px;
     line-height: 1.33;
     color: var(--p5);
+    font-family: 'Poppins';
+    font-weight: 600;
 }
 .introducao-conteudo a:hover{
     background: linear-gradient(#FFB60d ,#e59317);
