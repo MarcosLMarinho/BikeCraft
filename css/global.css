@@ -12,6 +12,8 @@
     --c11: #111111;
     --c12: #000000;
 
+    --w: #ffffff;
+
     --p1: #FFBB00;
     --p2: #E4A30B;
     --p3: #A66F00;
@@ -22,6 +24,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
