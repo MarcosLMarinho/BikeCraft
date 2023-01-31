@@ -76,6 +76,9 @@
     .bicicletas{
         gap: 20px;
     }
+    .bicicletas h2{
+        font-size: 44px;
+    }
     .bicicletas ul{
         gap: 20px;
     }
