@@ -1,0 +1,17 @@
+.parceiros-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.parceiros h2{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--c11);
+}
+.parceiros h2 span{
+    font-family: 'Poppins';
+    color: var(--p1);
+}
