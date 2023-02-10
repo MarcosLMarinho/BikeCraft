@@ -1,7 +1,8 @@
 .parceiros-container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 60px 20px;
+    padding: 0px 20px;
+    margin-top: 60px;
 }
 
 .parceiros h2{
@@ -14,4 +15,47 @@
 .parceiros h2 span{
     font-family: 'Poppins';
     color: var(--p1);
+}
+.parceiros-img{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.parceiros-img li{
+    padding: 32px;
+    display: flex;
+    border-left: 2px solid var(--c2);
+}
+.parceiros-img img{
+    margin: auto;
+}
+
+.parceiros-img li:first-child,
+.parceiros-img li:nth-child(5){
+    border-left: none;
+}
+.parceiros-img li:nth-child(n+5){
+    border-top: 2px solid var(--c2);
+}
+
+@media (max-width:800px){
+    .parceiros-img{
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 20px;
+    }
+    .parceiros-img li:nth-child(1),
+    .parceiros-img li:nth-child(2){
+        border-bottom: 2px solid var(--c2);
+    }
+    .parceiros-img li:nth-child(3),
+    .parceiros-img li:nth-child(7){
+        border-left: none;
+    }
+    .parceiros h2{
+        padding-bottom: 20px;
+    }
+
+
 }

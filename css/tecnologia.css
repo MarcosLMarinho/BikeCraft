@@ -93,3 +93,14 @@
     object-fit: cover;
     object-position:left ;
 }
+
+@media (max-width: 800px){
+    .tecnologia-img-container{
+        display: none;
+    }
+}
+@media (max-width: 500px){
+    .tecnologia-conteudo h2{
+        font-size: 44px;
+    }
+}
