@@ -4,7 +4,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-
+.depoimento-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 .depoimento-conteudo{
     background: var(--p1);
     display: flex;
@@ -26,14 +30,27 @@
     color: var(--p4);
 }
 .depoimento-conteudo blockquote p::before{
-    content: '"';
+    content: '“';
     position: absolute;
     top: 15px;
     left: 35px;
     color: var(--p2);
 }
 .depoimento-conteudo blockquote p::after{
-    content: '"';
+    content: '”';
     position: absolute;
     color: var(--p2);
+}
+
+@media (max-width:800px){
+    .depoimento{
+        grid-template-columns: 1fr;
+    }
+    .depoimento-img{
+        display: none;
+    }
+    .depoimento-conteudo blockquote{
+        font-size: 28px;
+
+    }
 }
