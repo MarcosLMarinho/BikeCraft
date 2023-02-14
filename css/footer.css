@@ -3,7 +3,7 @@ footer{
 }
 .footer-container{
     max-width: 1200px;
-    padding: 60px 20px;
+    padding: 60px 20px 30px 20px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 3fr 5fr 4fr;
@@ -52,7 +52,7 @@ footer p{
     line-height: 32px;
     color: var(--c6);
     max-width: 1200px;
-    padding: 60px 20px;
+    padding: 0px 20px 60px 20px;
     margin: 0 auto;
 }
 
