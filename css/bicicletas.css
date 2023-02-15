@@ -1,0 +1,122 @@
+.bike-1bg{
+    background: var(--c11);
+}
+.bike-titulo{
+    max-width: 1200px;
+    padding: 60px 20px;
+    margin: 0 auto;
+}
+.bike-titulo p{
+    font-family: 'Roboto';
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--c5);
+}
+.bike-titulo h1{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    color: var(--w);
+    margin-bottom: 32px;
+}
+.bike-titulo h1 span{
+    font-family: 'Poppins';
+    color: var(--p1);
+    font-size: 64px;
+}
+
+
+.bike-container{
+    max-width: 1200px;
+    padding: 60px 20px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    gap: 40px;
+}
+
+.bike-bg{
+    background: var(--c11);
+}
+.bike-bg .bike-conteudo h2{
+    color: var(--w);
+}
+.bike-bg .bike-conteudo p,
+.bike-bg .bike-conteudo li{
+    color: var(--c5);
+}
+.bike-img{
+    position: relative;
+}
+.bike-img img{
+    border-radius: 5px;
+}
+.bike-container span{
+    background: var(--c12);
+    color: var(--w);
+    padding: 8px 16px 8px 8px;
+    border-radius: 5px 0px 0px 5px;
+    position: absolute;
+    display: inline-block;
+    top: 20px;
+    right: 0px;
+}
+.bike-conteudo{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-content: start;
+}
+.bike-conteudo h2,
+.bike-conteudo p{
+    grid-column: 1/-1;
+}
+.bike-conteudo h2{
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    color: var(--c11);
+}
+.bike-conteudo h2::before{
+    content: "";
+    display: block;
+    width: 12px;
+    height: 8px;
+    background: var(--p1);
+    margin-bottom: 8px;
+}
+.bike-conteudo p{
+    margin-bottom: 32px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--c8);
+}
+.bike-conteudo a{
+    place-self: end;
+}
+.bike-conteudo ul{
+    display: grid;
+    gap: 16px;
+}
+.bike-conteudo li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--c8);
+}
+.bike-conteudo li img{
+    width: 24px;
+}
+
+@media (max-width:800px){
+    
+}

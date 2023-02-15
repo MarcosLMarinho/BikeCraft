@@ -52,8 +52,8 @@
     margin-left: 180px;
     position: relative;
 }
-.seguros-prata h3 span::before,
-.seguros-ouro h3 span::before{
+.seguros-prata h3 span::after,
+.seguros-ouro h3 span::after{
     content: "mensal";
     position: absolute;
     top: 40px;
