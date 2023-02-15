@@ -17,7 +17,6 @@
 .seguros h2 span{
     font-family: 'Poppins';
     color: var(--p1);
-    word-break: keep-all;
 }
 .seguros-grid{
     display: grid;
