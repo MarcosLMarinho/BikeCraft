@@ -62,6 +62,10 @@
     display: inline-block;
     top: 20px;
     right: 0px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
 }
 .bike-conteudo{
     display: grid;
@@ -118,5 +122,18 @@
 }
 
 @media (max-width:800px){
-    
+    .bike-container{
+        grid-template-columns: 1fr;
+    }
+}
+@media (max-width:600px){
+    .bike-conteudo ul{
+        grid-template-columns: 1fr 1fr;
+    }
+    .bike-conteudo a{
+        grid-column: 1/-1;
+        place-self: start;
+        margin-top: 24px;
+    }
+
 }
