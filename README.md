@@ -1,2 +1,0 @@
-# BikeCraft
- Site de Bicicletas
